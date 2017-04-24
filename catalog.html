@@ -8,7 +8,7 @@
         <header class="catalog-header">
             <div class="container">
                 <a class="catalog-logo">
-                    <img src="" alt="logo-barbershop">
+                    <img src="" alt="barbershop">
                 </a>
                 <nav class="catalog-navigation">
                     <ul>
@@ -36,8 +36,8 @@
             </section>
 
             <form class="catalog-form" action="/barbershop-mail" method="post">
-                <section class="manufacturers">
-                    <h2 class="catalog-form-title">Производители:</h2>
+                <fieldset class="manufacturers">
+                    <legend class="catalog-form-title">Производители:</legend>
                         <input type="checkbox" name="produsers" id="Baxter-of-California" checked>
                         <label for="Baxter-of-California">Baxter of California</label>
                         <input type="checkbox" name="produsers" id="Mr-Natty">
@@ -50,16 +50,16 @@
                         <label for="Murray's">Murray's</label>
                         <input type="checkbox" name="produsers" id="American-crew" checked>
                         <label for="American-crew">American crew</label>
-                </section>
-                <section class="products-group">
-                    <h2 class="catalog-form-title">Группы товаров:</h2>
+                </fieldset>
+                <fieldset class="products-group">
+                    <legend class="catalog-form-title">Группы товаров:</h2></legend>
                         <input type="radio" name="produsers" id="shaving-accessories">
                         <label for="shaving-accessories">Бритвенные принадлежности</label>
                         <input type="radio" name="produsers" id="care-products" checked>
                         <label for="care-products">Средства для ухода</label>
                         <input type="radio" name="produsers" id="accessories">
                         <label for="accessories">Аксессуары</label>
-                </section>
+                </fieldset>
                 <button type="submit">Показать</button>
             </form>
 
