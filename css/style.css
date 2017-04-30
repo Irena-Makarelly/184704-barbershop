@@ -7,12 +7,12 @@ body {
   font-weight: normal;
   font-family: "PTSans";
   background: grey;
-}
+ }
 
-.catalog-breadcrumbs-title {
+ .catalog-breadcrumbs-title {
   font-size: 30px;
-  line-hight: 42px;
+  line-height: 42px;
   color: #000000;
   font-weight: bold;
   font-family: "PTSans";
-}
+ }
