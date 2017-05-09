@@ -123,6 +123,12 @@ body {
   margin-bottom: 50px;
 }
 
+.catalog-breadcrumbs-rhomb {
+  background-image: url("../img/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+
 .catalog-form {
   float: left;
   width: 200px;
@@ -132,6 +138,8 @@ body {
   float: right;
   width: 700px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-item {
@@ -150,6 +158,11 @@ body {
 
 .catalog-item-title {
   width: 140px;
+}
+
+.catalog-pagination {
+  list-style: none;
+  display: block;
 }
 
 
